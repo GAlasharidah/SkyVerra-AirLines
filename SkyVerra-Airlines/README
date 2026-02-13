@@ -1,0 +1,84 @@
+# ✈️ SkyVerra Airlines – Desktop Reservation System
+
+A full desktop airline ticket booking system developed using **Java (Object-Oriented Programming)** and integrated with **MySQL via JDBC**.  
+The application supports both customer and administrator functionalities with structured database management and role-based access control.
+
+---
+
+## 🚀 Features
+
+### 👤 Customer Side
+- User registration & login
+- Flight search & availability check
+- Flight booking & seat selection
+- Payment processing
+- Ticket generation & booking history
+- Profile management
+
+### 🛠️ Admin Side
+- Admin dashboard with role-based navigation
+- Add new administrators
+- Manage bookings (view & update)
+- Manage flights
+- Activity logging system (audit trail)
+
+---
+
+## 🧠 My Contributions
+
+- Designed the complete **ER Diagram** and database structure.
+- Developed core admin-side modules:
+  - `AddAdminPage`
+  - `AdminDashboard`
+  - `ManageBookings`
+  - `ActivityLogs`
+- Implemented booking retrieval and update logic using SQL queries.
+- Integrated MySQL database using **JDBC**.
+- Applied structured exception handling for SQL operations.
+- Ensured proper separation between UI and database layers following OOP best practices.
+
+---
+
+## 🏗️ System Architecture
+
+- Layered structure separating:
+  - User Interface (Java Swing)
+  - Business Logic
+  - Database Access (JDBC)
+- Role-based access control for Admin and Customer users.
+- Centralized database connection handling.
+
+---
+
+## 🗄️ Database Design
+
+The system includes structured relational tables such as:
+- Customer
+- Admin
+- Flight
+- Booking
+- Ticket
+- Payment
+- Passenger
+- Seat
+- Receipt
+- ActivityLogs
+
+Designed using ER modeling principles before implementation.
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (OOP)
+- Java Swing (GUI)
+- MySQL
+- JDBC
+- Maven
+
+---
+
+## 📌 Project Type
+
+Academic Project – Object Oriented Programming II  
+Computer Science / Artificial Intelligence Track
